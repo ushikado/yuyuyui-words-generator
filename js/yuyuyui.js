@@ -57,10 +57,10 @@ function fillResultBlocks(response) {
 
 function startSpinner() {
     $('#GenerateButtonText').css("display", "none");
-    $('#GenerateButtonSpinner').css("display", "block");
+    $('#GenerateButtonSpinner').css("display", "inline-block");
 }
 
 function stopSpinner() {
-    $('#GenerateButtonText').css("display", "block");
+    $('#GenerateButtonText').css("display", "inline");
     $('#GenerateButtonSpinner').css("display", "none");
 }
